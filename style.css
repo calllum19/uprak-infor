@@ -64,7 +64,7 @@ body {
     margin: 30px 70px auto 70px; /* top, right, bottom, left */
 }
 
-.top-projects{ /* I LOVE U INSPECT ELEMENT */
+.top-projects { /* I LOVE U INSPECT ELEMENT */
     display: grid;
     grid-auto-flow: column;
     list-style-type: none;
@@ -73,11 +73,36 @@ body {
     width: 100%;
 }
 
-.top-projects li {
+.form-guide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+li.iftext {
+    display: inherit;
+    place-items: center;
+}
+
+.form-guide label {
+    font-size: 12px;
+    float: left;
+}
+
+.form-grid {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+}
+
+.top-projects li, .form-guide li {
     border-right: 1px solid; /* these borders are so awesome. */
     padding: 0 20px;
 }
-.top-projects li:last-child{
+.top-projects li:last-child, .form-guide li:last-child{
     border-right: none;
 }
 

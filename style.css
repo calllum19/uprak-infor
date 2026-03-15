@@ -52,6 +52,47 @@ body {
     text-align: center;
 }
 
+.title-container {
+    line-height: 0.5; /* I genuinely did not know you could do this, till I explored CSS docs */
+}
+
+.examples{
+    margin: 30px 70px auto 70px; /* top, right, bottom, left */
+}
+
+.top-projects{ /* I LOVE U INSPECT ELEMENT */
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.top-projects li {
+    border-right: 1px solid; /* these borders are so awesome. */
+    padding: 0 20px;
+}
+.top-projects li:last-child{
+    border-right: none;
+}
+
+.top-projects li h3 {
+    margin: 0;
+}
+
+.top-projects li p {
+    margin: 10px;
+    text-align: justify;
+}
+
+.top-projects li img {
+    object-fit: cover;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
 .footer {
     background-color: #333;
     color: white;

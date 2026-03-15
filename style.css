@@ -53,7 +53,11 @@ body {
 }
 
 .title-container {
-    line-height: 0.5; /* I genuinely did not know you could do this, till I explored CSS docs */
+    margin: auto 100px;
+}
+
+.title-container h1 {
+    line-height: 0.2; /* I genuinely did not know you could do this, till I explored CSS docs */
 }
 
 .examples{
